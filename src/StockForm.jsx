@@ -50,7 +50,7 @@ function App() {
     return (
     <>
         <div> 
-        <img src="/src/assets/financelogo.png" className="Finance Logo" alt="Finance logo" />
+        <img src="/assets/financelogo.png" className="Finance Logo" alt="Finance logo" />
         <h1>Finance Dashboard</h1>
         <form class="my-form" onSubmit={handleSubmit}>
             <input type ="text" placeholder='Stock Symbol' value={stockSymbol} onChange={(handlestockSymbol)} />
