@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import StockList from './StockList';
-
+import financeLogo from './assets/financelogo.png';
 
 
 function App() {
@@ -48,7 +48,7 @@ function App() {
     return (
     <>
         <div> 
-        <img src="/assets/financelogo.png" className="Finance Logo" alt="Finance logo" />
+        <img src={financeLogo} className="Finance Logo" alt="Finance logo" />
         <h1>Finance Dashboard</h1>
         <form class="my-form" onSubmit={handleSubmit}>
             <input type ="text" placeholder='Stock Symbol' value={stockSymbol} onChange={(handlestockSymbol)} />
